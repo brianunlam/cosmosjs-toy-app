@@ -6,7 +6,7 @@ PROTO_DIR="./proto"
 COSMOS_DIR="$PROTO_DIR/cosmos"
 COSMOS_SDK_DIR="$COSMOS_DIR/cosmos-sdk"
 ZIP_FILE="$COSMOS_DIR/tmp.zip"
-COSMOS_SDK_REF=${COSMOS_SDK_REF:-"main"}
+COSMOS_SDK_REF=${COSMOS_SDK_REF:-"v0.45.3"}
 SUFFIX=${COSMOS_SDK_REF}
 
 [[ $SUFFIX =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-.+)?$ ]] && SUFFIX=${SUFFIX#v}
